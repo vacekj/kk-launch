@@ -12,7 +12,7 @@ Features
 
 Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/JouzaLoL/nextjs-template-macek)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vacekj/nextjs-template)
 
 ## How to use it?
 
@@ -21,5 +21,5 @@ Deploy the example using [Vercel](https://vercel.com):
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-yarn create next-app --example https://github.com/JouzaLoL/nextjs-template-macek my-next-app
+yarn create next-app --example https://github.com/vacekj/nextjs-template my-next-app
 ```
