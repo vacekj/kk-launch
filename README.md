@@ -1,6 +1,6 @@
-# Macek Next.js Template
+# Next.js Template
 
-This is a combination of the Next.js Typescript template with the TailwindCSS template with some added features on top.
+This is a combination of the Next.js Typescript template and the TailwindCSS template with some added features on top.
 
 Features
 - Typescript
