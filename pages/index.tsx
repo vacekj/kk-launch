@@ -1,7 +1,7 @@
 import Layout from "components/Layout";
 
 const IndexPage = () => (
-	<Layout title="Home | Next.js + TailwindCSS + TypeScript + Prettier">
+	<Layout title="Hello">
 		<h1>Hello Next.js 👋</h1>
 	</Layout>
 );

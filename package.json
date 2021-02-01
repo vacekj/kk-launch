@@ -1,25 +1,56 @@
 {
-  "name": "macek-nextjs",
+  "name": "nextjs-vacekj",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "cy:run": "yarn run cypress run",
+    "e2e": "start-server-and-test dev http://localhost:3000 cy:run",
+    "lint": "eslint components/** pages/** util/** --fix",
+    "format": "prettier --write components pages util"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.2.1",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "framer-motion": "^3.2.2-rc.1",
     "next": "latest",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "next-seo": "^4.17.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^6.14.0",
+    "react-icons": "^4.1.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
-    "typescript": "latest",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.4.0",
-    "prettier": "latest"
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "cypress": "^6.3.0",
+    "eslint": "^7.17.0",
+    "husky": "^4.3.6",
+    "prettier": "latest",
+    "start-server-and-test": "^1.12.0",
+    "typescript": "latest"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "prettier": {
+    "tabWidth": 4,
+    "useTabs": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format && yarn lint",
+      "pre-push": "yarn build"
+    }
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ]
+  }
 }
