@@ -15,13 +15,20 @@
     "@chakra-ui/react": "^1.2.1",
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
+    "@hubspot/api-client": "^3.4.1",
+    "@juggle/resize-observer": "^3.2.0",
+    "@react-three/drei": "^3.11.2",
     "framer-motion": "^3.2.2-rc.1",
     "next": "latest",
     "next-seo": "^4.17.0",
     "react": "latest",
     "react-dom": "latest",
     "react-hook-form": "^6.14.0",
-    "react-icons": "^4.1.0"
+    "react-icons": "^4.1.0",
+    "react-postprocessing": "^1.4.0",
+    "react-three-fiber": "^5.3.18",
+    "three": "^0.125.2",
+    "vercel": "^21.2.3"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",

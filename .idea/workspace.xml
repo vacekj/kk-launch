@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aac199b8-d01f-4442-a213-6ff0c43f2bdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nextjs-template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/ChakraTheme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/DefaultSEO.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="aac199b8-d01f-4442-a213-6ff0c43f2bdb" name="Default Changelist" comment="feat: definitive next.js template">
+      <change afterPath="$PROJECT_DIR$/components/MailCTA.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/subscribe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/glyph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/glyph_inverted.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ChakraTheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/util/ChakraTheme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/DefaultSEO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/util/DefaultSEO.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,6 @@
     </file-type-list>
   </component>
   <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/../jaknacrypto.cz/package.json" />
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1nstLeyKDpnbld1OzPk4V3NvWkM" />
@@ -60,16 +61,38 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/util" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Next.js Dev" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="dev" />
+          </scripts>
+          <arguments value="&amp;" />
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,8 +104,20 @@
       <updated>1612190571611</updated>
       <workItem from="1612190573314" duration="671000" />
       <workItem from="1612191252048" duration="20000" />
-      <workItem from="1612191283717" duration="631000" />
+      <workItem from="1612191283717" duration="732000" />
+      <workItem from="1612260015938" duration="21000" />
+      <workItem from="1613079104976" duration="5730000" />
+      <workItem from="1616365680518" duration="346000" />
+      <workItem from="1616366097263" duration="3552000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: definitive next.js template">
+      <created>1612191935501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612191935501</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +134,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: definitive next.js template" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: definitive next.js template" />
   </component>
 </project>
