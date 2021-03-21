@@ -95,7 +95,7 @@ export default function MailCTA() {
 					/>
 					<Button
 						variant={succ ? "solid" : "brand"}
-						colorScheme={succ ? "green" : null}
+						colorScheme={succ ? "green" : undefined}
 						ml={0}
 						size="lg"
 						type={"submit"}

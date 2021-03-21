@@ -2,8 +2,6 @@ import * as THREE from "three";
 import React, { useRef, useMemo, useState } from "react";
 import { Canvas, useFrame } from "react-three-fiber";
 import { EffectComposer, SSAO } from "react-postprocessing";
-import { useRouter } from "next/router";
-import strings from "../strings";
 import { ResizeObserver } from "@juggle/resize-observer";
 import { Box, VStack } from "@chakra-ui/react";
 import MailCTA from "../components/MailCTA";
@@ -86,13 +84,13 @@ function Swarm({ count, mouse }) {
 }
 
 export default function App() {
-	const { locale } = useRouter();
-
 	return (
 		<>
-			<VStack spacing={10} zIndex={1000} color={"white"}>
+			<VStack m={[6, 0]} spacing={[10]} zIndex={1000} color={"white"}>
 				<img src={"/logo_white.svg"} alt={"KryptoKurzy.cz logo"} />
-				<Box fontSize={"3xl"}>{strings[locale!].launch} </Box>
+				<Box fontSize={"3xl"}>
+					Rezervujte si své místo a buďte první, kdo získá přístup
+				</Box>
 				<MailCTA />
 			</VStack>
 
