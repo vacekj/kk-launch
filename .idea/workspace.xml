@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aac199b8-d01f-4442-a213-6ff0c43f2bdb" name="Default Changelist" comment="feat: only czech lang">
+    <list default="true" id="aac199b8-d01f-4442-a213-6ff0c43f2bdb" name="Default Changelist" comment="feat: google analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MailCTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MailCTA.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1nstLeyKDpnbld1OzPk4V3NvWkM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,7 +42,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -88,7 +89,11 @@
       <workItem from="1612260015938" duration="21000" />
       <workItem from="1613079104976" duration="5730000" />
       <workItem from="1616365680518" duration="346000" />
-      <workItem from="1616366097263" duration="4703000" />
+      <workItem from="1616366097263" duration="7619000" />
+      <workItem from="1616439698615" duration="138000" />
+      <workItem from="1616439862882" duration="597000" />
+      <workItem from="1616589300752" duration="932000" />
+      <workItem from="1616590351489" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="feat: definitive next.js template">
       <created>1612191935501</created>
@@ -104,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616369712307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: mobile update">
+      <created>1616370849153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616370849153</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +151,8 @@
     <MESSAGE value="feat: definitive next.js template" />
     <MESSAGE value="my macbook nearly burned down from this" />
     <MESSAGE value="feat: only czech lang" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: only czech lang" />
+    <MESSAGE value="feat: mobile update" />
+    <MESSAGE value="feat: google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: google analytics" />
   </component>
 </project>

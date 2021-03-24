@@ -8,7 +8,6 @@
     "type-check": "tsc",
     "cy:run": "yarn run cypress run",
     "e2e": "start-server-and-test dev http://localhost:3000 cy:run",
-    "lint": "eslint components/** pages/** util/** --fix",
     "format": "prettier --write components pages util"
   },
   "dependencies": {
@@ -50,7 +49,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format && yarn lint",
+      "pre-commit": "yarn format",
       "pre-push": "yarn build"
     }
   },

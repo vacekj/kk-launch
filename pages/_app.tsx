@@ -10,6 +10,26 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
+				{process.env.NODE_ENV === "production" && process.browser && (
+					<>
+						<script
+							async
+							src="https://www.googletagmanager.com/gtag/js?id=G-SE7E1WDWEL"
+						/>
+						<script
+							async
+							dangerouslySetInnerHTML={{
+								__html: `<script>
+								  window.dataLayer = window.dataLayer || [];
+								  function gtag(){dataLayer.push(arguments);}
+								  gtag('js', new Date());
+								
+								  gtag('config', 'G-SE7E1WDWEL');
+								</script>`,
+							}}
+						/>
+					</>
+				)}
 				<title>Kryptokurzy.cz</title>
 				<link
 					rel="apple-touch-icon"

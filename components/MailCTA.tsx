@@ -10,8 +10,6 @@ import {
 import { HiCheck } from "react-icons/hi";
 import { useForm } from "react-hook-form";
 import React, { useState } from "react";
-import { useRouter } from "next/router";
-import strings from "../strings";
 
 export const qs = (params: { [x: string]: string | number | boolean }) =>
 	Object.keys(params)
@@ -22,7 +20,6 @@ export const qs = (params: { [x: string]: string | number | boolean }) =>
 		.join("&");
 
 export default function MailCTA() {
-	const { locale } = useRouter();
 	const { register, handleSubmit } = useForm({
 		mode: "onChange",
 	});
@@ -42,7 +39,7 @@ export default function MailCTA() {
 				}
 				setSucc(true);
 				toast({
-					title: strings[locale!].success,
+					title: "Místo rezervováno",
 					description:
 						"Další informace dostanete den před spuštěním emailem",
 					status: "success",
@@ -88,7 +85,7 @@ export default function MailCTA() {
 						color={"black"}
 						type={"email"}
 						autoComplete={"email"}
-						placeholder={strings[locale!].email}
+						placeholder={"vas@email.cz"}
 						borderRightRadius={0}
 						mr={0}
 						aria-label={"Email"}
