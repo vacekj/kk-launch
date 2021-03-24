@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aac199b8-d01f-4442-a213-6ff0c43f2bdb" name="Default Changelist" comment="feat: google analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MailCTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MailCTA.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +91,7 @@
       <workItem from="1616439698615" duration="138000" />
       <workItem from="1616439862882" duration="597000" />
       <workItem from="1616589300752" duration="932000" />
-      <workItem from="1616590351489" duration="252000" />
+      <workItem from="1616590351489" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="feat: definitive next.js template">
       <created>1612191935501</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616370849153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: google analytics">
+      <created>1616590612007</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616590612007</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
