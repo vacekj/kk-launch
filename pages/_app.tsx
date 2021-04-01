@@ -57,6 +57,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 				<link rel="shortcut icon" href="/favicon.ico?v=m2njO944N0" />
 				<meta name="msapplication-TileColor" content="#000000" />
 				<meta name="theme-color" content="#ffffff" />
+				<meta
+					name="seznam-wmt"
+					content="3TF8mnDD7lYyMZ5P5qrblYTjbdU3rnS5"
+				/>
 				<meta charSet="UTF-8" />
 				<meta
 					name="viewport"
